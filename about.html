@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-G7PCStore</title>
+    <link rel="icon" type="img" href="Logo/Group7PhoneShop.png.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+
+        <div class="header-left">
+            <a href="index.html">
+                <img src="Logo/Group7PhoneShop.png.png" alt="G7 Phone Shop">
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav nav-pills ">
+                    <li class="nav-item">
+                        <a href="index.html" target="_parent" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#support" class="nav-link">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link active">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resources" class="nav-link">Resources</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-right">
+            <button class="search-button text-light rounded-pill" type="button">
+                <img src="Logo/search.png" alt="Search">
+                <h1>Search Products</h1>
+            </button>
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-btn" type="button" onclick="toggleMenu()" aria-label="Toggle navigation"
+                aria-controls="navbar" aria-expanded="false">
+                &#9776;
+            </button>
+        </div>
+
+    </div>
+    <div class="head-about text-light">
+        <h1>About G7PCStore</h1>
+    </div>
+    <div class="about">
+        <div class="details">
+            <p>
+                G7PCStore គឺជាហាងលក់កុំព្យូទ័រ និងគ្រឿងបន្លាស់កុំព្យូទ័រដែលផ្តល់ជូននូវផលិតផលមានគុណភាព តម្លៃសមរម្យ និងសេវាកម្មប្រកបដោយទំនុកចិត្ត។ យើងមានជម្រើសជាច្រើនដូចជា Laptop, Desktop, Gaming PC និង Accessories ពីម៉ាកល្បីៗ ដើម្បីបំពេញតម្រូវការសិក្សា ការងារ និងការកម្សាន្តរបស់អតិថិជន។
+            </p>
+        </div>
+    </div>
+    <div class="rate">
+            <div class="cards">
+                <div class="card">
+                    <h2>20+</h2>
+                    <p>Products Sold</p>
+                </div>
+                <div class="card">
+                    <h2>10K+</h2>
+                    <p>Products Sold</p>
+                </div>
+                <div class="card">
+                    <h2>25</h2>
+                    <p>Provinces Served</p>
+                </div>
+                <div class="card">
+                    <h2>24/7</h2>
+                    <p>Support</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer1">
+            <img src="Logo/Group7PhoneShop.png.png" alt="">
+            <h4> Opening Hours</h4>
+            <h4>Monday – Sunday</h4>
+            <h4>8:00 AM – 5:30 PM</h4>
+        </div>
+        <div class="footer2">
+            <div id="contacts">
+                <h3>Contacts</h3>
+                <h4>Sale Showroom</h4>
+                <div class="phone">
+                    <p>096 86 55 274</p>
+                    <p>097 35 93 745</p>
+                    <p>096 86 55 274</p>
+                </div>
+                <h4>Technical Support</h4>
+                <div class="phone">
+                    <p>096 86 55 274</p>
+                    <p>097 35 93 745</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer3">
+            <div class="quicklinks">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="#">Support</a>
+                <a href="about.html">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Resources</a>
+            </div>
+        </div>
+        <div class="footer4">
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="social">
+                    <a href="https://t.me/rorn_daro" target="_parent"><img src="icon/tg.png" alt=""></a>
+                    <a href="#"><img src="icon/ms.png" alt=""></a>
+                    <a href="#"><img src="icon/fb.png" alt=""></a>
+                    <a href="#"><img src="icon/tk.png" alt=""></a>
+                    <a href="#"><img src="icon/wha.png" alt=""></a>
+                    <a href="#"><img src="icon/yt.png" alt=""></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="end-footer">
+        <div class="end-left">
+            <p>Copyright © 2026 G7 PCSotre.</p>
+        </div>
+        <div class="end-right">
+            <p>Developed By: RORN DARO</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
+<script src="js/bootstrap.bundle.js"></script>
+<script>
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function () {
+            document.querySelectorAll('.nav-link').forEach(item => {
+                item.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+</script>
